@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fraud Detection Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h2>Fraud Detection Dashboard</h2>
+
+<div class="cards">
+  <div class="card" id="totalLogs">Total Logs: 0</div>
+  <div class="card" id="fraudCount">Fraud Count: 0</div>
+  <div class="card" id="suspiciousCount">Suspicious Count: 0</div>
+  <div class="card" id="fraudRate">Fraud Rate: 0%</div>
+</div>
+
+<div class="charts-row">
+  <canvas id="fraudChart"></canvas>
+  <canvas id="suspiciousChart"></canvas>
+</div>
+
+<canvas id="activityChart"></canvas>
+
+<table id="alertsTable">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Type</th>
+      <th>IP</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
