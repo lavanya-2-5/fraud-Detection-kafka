@@ -1,4 +1,4 @@
-# 🚨 IP Fraud Detection Dashboard (Kafka Streams + Spring Boot)
+# 🚨 IP Fraud Detection System (Kafka Streams + Spring Boot)
 
 A real-time IP fraud detection system built using Apache Kafka Streams, Spring Boot, and a live monitoring dashboard.
 
